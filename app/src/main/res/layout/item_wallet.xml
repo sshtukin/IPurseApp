@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/first_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/some_text"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/second_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/some_text"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/third_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/some_text"
+            android:textSize="18sp" />
+
+
+
+        <TextView
+            android:id="@+id/fourth_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/some_text"
+            android:textSize="18sp" />
+
+
+
+
+        <TextView
+            android:id="@+id/fifth_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/some_text"
+            android:textSize="18sp"
+            />
+
+        <!--<TextView-->
+            <!--android:id="@+id/sixth_field"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/some_text"-->
+            <!--android:textSize="18sp" />-->
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

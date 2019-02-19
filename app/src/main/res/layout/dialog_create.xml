@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="7dp">
+
+    <EditText
+        android:id="@+id/dialog_create_first_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/dialog_create_third_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+
+    <EditText
+        android:id="@+id/dialog_create_fourth_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+
+    <Button
+        android:id="@+id/dialog_create_save_button"
+        android:layout_width="match_parent"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_height="50dp"
+        android:text="@string/save_text"
+        android:elevation="7dp"
+        android:textSize="18sp" />
+
+        <Button
+        android:id="@+id/dialog_create_cancel_button"
+            style="@style/Widget.AppCompat.Button.Colored"
+        android:text="@string/cancel_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:elevation="7dp"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
+
+
